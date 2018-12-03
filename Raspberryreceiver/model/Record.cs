@@ -15,12 +15,15 @@ namespace Raspberryreceiver.model
 
             public double Humidity { get; set; }
 
+
             public Record(double pressure, double temperature, double humidity)
             {
                 Humidity = humidity;
                 Pressure = pressure;
                 Temperature = temperature;
+
             }
         }
-    }
+    
 }
+
